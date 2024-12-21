@@ -1,4 +1,4 @@
-import ApiClient from "./apiClient"
+import ApiClient from "/ApiClient"
 
 export const getUsers = () => ApiClient.get('/users')
 export const addUser = (user) => ApiClient.post('/users', user)
