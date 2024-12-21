@@ -1,0 +1,20 @@
+main {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 95px);
+  overflow-y: auto;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (max-width: 950px) {
+  main {
+    height: calc(100% - 90px);
+  }
+}

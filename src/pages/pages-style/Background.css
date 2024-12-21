@@ -1,0 +1,14 @@
+.container button {
+  background: #3c58a5;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, .5);
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+button:hover {
+  background: #263868;
+  box-shadow: none;
+}

@@ -1,0 +1,44 @@
+.container h2 {
+  font-size: 5rem;
+  line-height: 5rem;
+  display: flex;
+  align-items: center;
+  color: #263868;
+}
+
+.container h2 span {
+  font-size: 3rem;
+  color: #3c58a5;
+}
+
+.container h2 span.milliseconds {
+  font-size: 4rem;
+  color: #263868;
+}
+
+.container .button-area {
+  display: flex;
+  gap: 20px;
+}
+
+.container .button-area button {
+  font-size: 1.5rem;
+  border-radius: 40px;
+}
+
+.container .button-area.not-timming.not-paused button:last-of-type {
+  background: #e4eafa;
+  color: #263868;
+}
+
+.container .button-area.not-timming.not-paused button:last-of-type:hover {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+}
+
+.container .button-area.timming button:first-of-type {
+  background: #ce0808;
+}
+
+.container .button-area.timming button:first-of-type:hover {
+  background: #a00707;
+}

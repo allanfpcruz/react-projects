@@ -1,0 +1,80 @@
+.container .form-area,
+.container ul {
+  width: 100%;
+}
+
+.container .form-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .form-area input {
+  background: #e4eafa;
+  padding: 7px;
+  border-radius: 5px;
+  width: calc(100% - 100px);
+}
+
+.container .form-area button,
+.container ul li button {
+  padding: 10px;
+}
+
+
+.container .form-area input::placeholder {
+  color: #263868;
+}
+
+.container select {
+  align-self: flex-end;
+  padding: 5px;
+  border-radius: 5px;
+  background: #e4eafa;
+}
+
+.container select option {
+  background-color: #e4eafa;
+}
+
+.container ul {
+  list-style-type: none;
+}
+
+.container ul li {
+  padding: 10px;
+  background: #e4eafa;
+  border-bottom: 2px solid #263868;
+  transition: all .3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  letter-spacing: 1px;
+  max-width: 100%;
+}
+
+.container ul li:first-of-type {
+  border-top: 2px solid #263868;
+}
+
+.container ul li .button-area {
+  display: flex;
+  gap: 10px;
+}
+
+.container ul li.done {
+  background: #263868;
+  color: #e4eafa;
+  text-decoration: line-through;
+}
+
+.container ul li .button-area button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container ul li .button-area button svg {
+  font-size: .9rem;
+}

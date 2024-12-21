@@ -1,0 +1,36 @@
+.container .set-time {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container .set-time .input-container {
+  display: flex;
+  gap: 10px;
+}
+
+.container .set-time .input-container input {
+  font-size: 2rem;
+  padding: 5px;
+}
+
+.container .button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .button-container button {
+  padding: 20px;
+  font-size: 1.5rem;
+  border-radius: 40px;
+}
+
+.container .button-container button#delete {
+  background: #ce0808;
+}
+
+.container .button-container button#delete:hover {
+  background: #a00707;
+}
